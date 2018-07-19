@@ -1,0 +1,243 @@
+body {
+  overflow-x: hidden; }
+
+#topbar {
+  background-color: #c2c2c2;
+  padding: 20px; }
+  #topbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    #topbar ul li {
+      display: inline-block; }
+  #topbar .menu {
+    float: right; }
+    #topbar .menu li {
+      margin-left: 10px; }
+      #topbar .menu li a {
+        color: #fff;
+        text-decoration: none; }
+  #topbar .social_links {
+    float: left; }
+    #topbar .social_links li {
+      margin-right: 5px; }
+      #topbar .social_links li a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        text-align: center; }
+        #topbar .social_links li a i {
+          margin-top: 9px;
+          color: #fff; }
+      #topbar .social_links li .facebook {
+        background-color: #3b5999; }
+      #topbar .social_links li .googleplus {
+        background-color: #dd4b39; }
+      #topbar .social_links li .youtube {
+        background-color: #cd201f; }
+  #topbar .menu li {
+    margin-left: 30px !important; }
+
+#header {
+  margin-top: 3%; }
+  #header .card-container {
+    cursor: pointer;
+    height: 140px;
+    perspective: 600;
+    position: relative;
+    width: 140px;
+    margin: auto; }
+  #header .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    border-radius: 50%; }
+  #header .card:hover {
+    transform: rotateY(180deg); }
+  #header .card .side {
+    backface-visibility: hidden;
+    border-radius: 50%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%; }
+  #header .card .side img {
+    width: 150px;
+    margin-top: 31%;
+    margin-right: -3%; }
+  #header .card .back {
+    text-align: center;
+    transform: rotateY(180deg); }
+  #header .card .back img {
+    width: 150px;
+    margin-top: -5%;
+    margin-right: -3%; }
+  #header .company_info {
+    text-align: right; }
+  #header .company_contact {
+    text-align: right; }
+    #header .company_contact ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      #header .company_contact ul li {
+        display: inline-block;
+        background-color: #e6e4e4;
+        padding: 5px;
+        margin-right: 1%; }
+        #header .company_contact ul li a {
+          color: #000;
+          text-decoration: none; }
+          #header .company_contact ul li a i {
+            padding-left: 5px; }
+
+#slider {
+  margin-top: 5%; }
+
+#content {
+  margin-top: 5%; }
+  #content .right_content {
+    width: 160px;
+    height: 600px;
+    background-color: #ddd;
+    float: right; }
+  #content .content_descrip .col-12 {
+    margin-bottom: 5%; }
+    #content .content_descrip .col-12 .content_info {
+      text-align: center; }
+      #content .content_descrip .col-12 .content_info p {
+        margin-bottom: 5%; }
+  #content .left_content {
+    width: 160px;
+    height: 600px;
+    background-color: #ddd;
+    float: left; }
+
+#brands .brands_header {
+  text-align: center;
+  margin-bottom: 5%; }
+#brands .owl-carousel a {
+  display: inline-block;
+  width: 150px; }
+#brands .owl-carousel .owl-stage-outer {
+  text-align: center; }
+
+#bottom_adv {
+  margin-top: 3%; }
+  #bottom_adv .bottom_adv_content {
+    width: 468px;
+    height: 60px;
+    background-color: #ddd;
+    margin: auto;
+    text-align: center; }
+
+#footer {
+  background-color: #878787;
+  padding: 15px; }
+  #footer .form_contact form {
+    text-align: right;
+    margin-top: 12%; }
+    #footer .form_contact form .contact_info {
+      margin-bottom: 5%; }
+      #footer .form_contact form .contact_info label {
+        display: block !important;
+        color: #fff; }
+      #footer .form_contact form .contact_info input {
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px solid #fff;
+        width: 100%;
+        outline: none; }
+      #footer .form_contact form .contact_info textarea {
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px solid #fff;
+        width: 100%;
+        outline: none; }
+    #footer .form_contact form button {
+      margin-right: 31%;
+      width: 100px;
+      cursor: pointer;
+      background-color: #6693c0;
+      color: #fff;
+      border: 0; }
+  #footer .indooy_search {
+    margin-bottom: 2%;
+    margin-top: 7%;
+    width: 68%; }
+    #footer .indooy_search .indooy_search_logo {
+      width: 192px;
+      height: 125px;
+      margin: auto;
+      display: inline-block; }
+      #footer .indooy_search .indooy_search_logo img {
+        width: 100%;
+        margin-top: -15%; }
+    #footer .indooy_search .box {
+      display: inline-block;
+      margin-left: 0%; }
+    #footer .indooy_search .container-2 {
+      width: 300px;
+      vertical-align: middle;
+      white-space: nowrap;
+      position: relative; }
+    #footer .indooy_search .container-2 input#search {
+      width: 36px;
+      height: 36px;
+      background: #ffffff96;
+      border: none;
+      font-size: 10pt;
+      float: left;
+      color: #262626;
+      padding-left: 35px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      color: #fff;
+      -webkit-transition: width .55s ease;
+      -moz-transition: width .55s ease;
+      -ms-transition: width .55s ease;
+      -o-transition: width .55s ease;
+      transition: width .55s ease; }
+    #footer .indooy_search .container-2 input#search::-webkit-input-placeholder {
+      color: #65737e; }
+    #footer .indooy_search .container-2 input#search:-moz-placeholder {
+      /* Firefox 18- */
+      color: #65737e; }
+    #footer .indooy_search .container-2 .icon {
+      position: absolute;
+      margin-top: 7px;
+      z-index: 1;
+      color: #fff;
+      left: 3%; }
+    #footer .indooy_search .container-2 input#search:focus,
+    #footer .indooy_search .container-2 input#search:active {
+      outline: none;
+      width: 300px; }
+    #footer .indooy_search .container-2:hover input#search {
+      width: 300px; }
+    #footer .indooy_search .container-2:hover .icon {
+      color: #93a2ad; }
+  #footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    #footer ul li {
+      display: inline-block;
+      padding-right: 10px; }
+      #footer ul li a {
+        color: #FFF; }
+  #footer .first_list {
+    text-align: left; }
+  #footer .second_list {
+    text-align: right; }
+  #footer .Email {
+    text-align: center;
+    color: #fff; }
+  #footer .second_row {
+    margin-top: 25%; }
+
+/*# sourceMappingURL=MainStyle.css.map */
