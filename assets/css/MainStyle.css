@@ -2,8 +2,7 @@ body {
   overflow-x: hidden; }
 
 #topbar {
-  background-color: #c2c2c2;
-  padding: 20px; }
+  background-color: #c2c2c2; }
   #topbar ul {
     margin: 0;
     padding: 0;
@@ -38,6 +37,15 @@ body {
         background-color: #cd201f; }
   #topbar .menu li {
     margin-left: 30px !important; }
+  #topbar .navbar-nav {
+    width: 50%; }
+    #topbar .navbar-nav .nav-item {
+      margin-left: 15px; }
+  #topbar .form-inline {
+    margin-left: 2%;
+    margin-top: 1% !important; }
+    #topbar .form-inline button {
+      margin-right: 5px; }
 
 #header {
   margin-top: 3%; }
