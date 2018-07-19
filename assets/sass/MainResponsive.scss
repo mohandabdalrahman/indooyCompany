@@ -24,4 +24,42 @@
         margin-top: 7px;
         font-size: 12px;
     }
+
+    // start header  index page
+    #header .card-container
+    {
+        width: 60px;
+        height: 60px;
+    }
+    #header .card .side img {
+        width: 60px;
+        margin-right: 1%;
+    }
+    #header .company_info h3
+    {
+        font-size: 17px;
+    }
+
+    #header .company_info h4{
+        font-size: 15px;
+    }
+
+    #header .company_info p{
+
+        font-size: 10px;
+    }
+    #header .company_contact ul li
+    {
+        padding: 2px;
+    }
+    #header .company_contact ul li a{
+        font-size: 10px;
+    }
+
+    // start content index page
+    
+
+
 }
+
+
