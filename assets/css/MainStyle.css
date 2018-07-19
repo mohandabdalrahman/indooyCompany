@@ -9,13 +9,6 @@ body {
     list-style-type: none; }
     #topbar ul li {
       display: inline-block; }
-  #topbar .menu {
-    float: right; }
-    #topbar .menu li {
-      margin-left: 10px; }
-      #topbar .menu li a {
-        color: #fff;
-        text-decoration: none; }
   #topbar .social_links {
     float: left; }
     #topbar .social_links li {
@@ -112,6 +105,9 @@ body {
     height: 600px;
     background-color: #ddd;
     float: right; }
+    #content .right_content img {
+      width: 100%;
+      height: 100%; }
   #content .content_descrip .col-12 {
     margin-bottom: 5%; }
     #content .content_descrip .col-12 .content_info {
@@ -123,6 +119,9 @@ body {
     height: 600px;
     background-color: #ddd;
     float: left; }
+    #content .left_content img {
+      width: 100%;
+      height: 100%; }
 
 #brands .brands_header {
   text-align: center;
@@ -135,12 +134,15 @@ body {
 
 #bottom_adv {
   margin-top: 3%; }
-  #bottom_adv .bottom_adv_content {
+  #bottom_adv .bottomAdv_pagnition_adv, #bottom_adv .bottom_adv_content {
     width: 468px;
     height: 60px;
     background-color: #ddd;
     margin: auto;
     text-align: center; }
+    #bottom_adv .bottomAdv_pagnition_adv img, #bottom_adv .bottom_adv_content img {
+      width: 100%;
+      height: 100%; }
 
 #footer {
   background-color: #878787;
