@@ -1,0 +1,19 @@
+@media (max-width: 575.98px) {
+  #topbar .menu li {
+    margin-left: 0 !important; }
+
+  #topbar .menu li img {
+    width: 30px; }
+
+  #topbar .menu li a {
+    font-size: 10px; }
+
+  #topbar .social_links li a {
+    width: 25px;
+    height: 25px; }
+
+  #topbar .social_links li a i {
+    margin-top: 7px;
+    font-size: 12px; } }
+
+/*# sourceMappingURL=MainResponsive.css.map */
